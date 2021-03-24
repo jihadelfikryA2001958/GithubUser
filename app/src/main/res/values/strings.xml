@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Github User</string>
+    <string name="username">username</string>
+    <string name="office">Bekerja pada perusahaan start up</string>
+    <string name="nama">Nama</string>
+
+    <string-array name="data_username">
+        <item>NoobMaster69</item>
+        <item>CaptainSpottie</item>
+        <item>AurumID</item>
+        <item>EsseChangeMemoriesDont</item>
+        <item>Pejabatscbd</item>
+        <item>JiraiyaisBack</item>
+        <item>Starskriver</item>
+        <item>Skallooops</item>
+        <item>Bonxheur</item>
+        <item>Buvest</item>
+    </string-array>
+
+    <string-array name="data_name">
+        <item>Thor son of Odin</item>
+        <item>Aksa Siregar</item>
+        <item>Kathan Joy</item>
+        <item>Abang Aksa</item>
+        <item>Rafly Siregar</item>
+        <item>Jiraiya the Sannin of Myoboku</item>
+        <item>Temennya Ayla</item>
+        <item>Dhyaa Almas</item>
+        <item>Audrey Ardianto</item>
+        <item>M Jihad El Fikry</item>
+    </string-array>
+
+    <string-array name="data_career">
+        <item>Bekerja sebagai God of Thunder di Asgard</item>
+        <item>Bekerja sebagai Social Media Specialist di Damai Raya 30</item>
+        <item>Bekerja sebagai Commercial Diver di PHE</item>
+        <item>Bekerja sebagai CEO di Warung Kabea</item>
+        <item>Bekerja sebagai Pejabat di SCBD</item>
+        <item>Bekerja sebagai Hokage bayangan di Konoha</item>
+        <item>Bekerja sebagai Desainer di Saroong Attelier</item>
+        <item>Bekerja sebagai PA</item>
+        <item>Bekerja sebagai CEO di ItjeHer</item>
+        <item>Bekerja sebagai Presiden Republik Indonesia</item>
+    </string-array>
+
+    <string-array name="data_photo">
+        <item>@drawable/a</item>
+        <item>@drawable/b</item>
+        <item>@drawable/c</item>
+        <item>@drawable/d</item>
+        <item>@drawable/e</item>
+        <item>@drawable/f</item>
+        <item>@drawable/g</item>
+        <item>@drawable/h</item>
+        <item>@drawable/i</item>
+        <item>@drawable/j</item>
+    </string-array>
+</resources>
