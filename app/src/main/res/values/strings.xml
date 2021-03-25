@@ -8,110 +8,112 @@
     <string name="following">Following</string>
     <string name="followers">Followers</string>
     <string name="repository">Repository</string>
+    <!-- Other string resources-->
 
     <string-array name="data_username">
-        <item>NoobMaster69</item>
-        <item>CaptainSpottie</item>
-        <item>AurumID</item>
-        <item>EsseChangeMemoriesDont</item>
-        <item>Pejabatscbd</item>
-        <item>JiraiyaisBack</item>
-        <item>Starskriver</item>
-        <item>Skallooops</item>
-        <item>Bonxheur</item>
-        <item>Buvest</item>
+        <item>JakeWharton</item>
+        <item>amitshekhariitbhu</item>
+        <item>romainguy</item>
+        <item>chrisbanes</item>
+        <item>tipsy</item>
+        <item>ravi8x</item>
+        <item>jasoet</item>
+        <item>budioktaviyan</item>
+        <item>hendisantika</item>
+        <item>sidiqpermana</item>
     </string-array>
 
     <string-array name="data_name">
-        <item>Thor son of Odin</item>
-        <item>Aksa Siregar</item>
-        <item>Kathan Joy</item>
-        <item>Abang Aksa</item>
-        <item>Rafly Siregar</item>
-        <item>Jiraiya the Sannin of Myoboku</item>
-        <item>Temennya Ayla</item>
-        <item>Dhyaa Almas</item>
-        <item>Audrey Ardianto</item>
-        <item>M Jihad El Fikry</item>
-    </string-array>
-
-    <string-array name="data_photo">
-        <item>@drawable/a</item>
-        <item>@drawable/b</item>
-        <item>@drawable/c</item>
-        <item>@drawable/d</item>
-        <item>@drawable/e</item>
-        <item>@drawable/f</item>
-        <item>@drawable/g</item>
-        <item>@drawable/h</item>
-        <item>@drawable/i</item>
-        <item>@drawable/j</item>
-    </string-array>
-
-    <string-array name="data_company">
-        <item>Bekerja sebagai God of Thunder di Asgard</item>
-        <item>Bekerja sebagai Social Media Specialist di Damai Raya 30</item>
-        <item>Bekerja sebagai Commercial Diver di PHE</item>
-        <item>Bekerja sebagai CEO di Warung Kabea</item>
-        <item>Bekerja sebagai Pejabat di SCBD</item>
-        <item>Bekerja sebagai Hokage bayangan di Konoha</item>
-        <item>Bekerja sebagai Desainer di Saroong Attelier</item>
-        <item>Bekerja sebagai PA</item>
-        <item>Bekerja sebagai CEO di ItjeHer</item>
-        <item>Bekerja sebagai Presiden Republik Indonesia</item>
+        <item>Jake Wharton</item>
+        <item>Amit Shekhar</item>
+        <item>Romain Guy</item>
+        <item>Chris Banes</item>
+        <item>David</item>
+        <item>Ravi Tamada</item>
+        <item>Deny Prasetyo</item>
+        <item>Budi Oktaviyan</item>
+        <item>Hendi Santika</item>
+        <item>Sidiq Permana</item>
     </string-array>
 
     <string-array name="data_location">
-        <item>Ragnarok</item>
-        <item>Cipete, Jakarta Selatan</item>
-        <item>Cikarang, Bekasi</item>
-        <item>Babakan Madang, Kab. Bogor</item>
-        <item>Sudirman, Jakarta Selatan</item>
-        <item>Konohagakure</item>
-        <item>Jimbaran, Bali</item>
-        <item>Kebayoran Baru, Jakarta Selatan</item>
-        <item>Cipete Selatan</item>
-        <item>Tembalang, Kota Semarang</item>
-    </string-array>
-
-    <string-array name="data_following">
-        <item>15,897 Following</item>
-        <item>185 Following</item>
-        <item>90K Following</item>
-        <item>876 Following</item>
-        <item>456 Following</item>
-        <item>8,294 Following</item>
-        <item>908 Following</item>
-        <item>173 Following</item>
-        <item>825 Following</item>
-        <item>524 Following</item>
-    </string-array>
-
-    <string-array name="data_followers">
-        <item>87k Followers</item>
-        <item>198 Followers</item>
-        <item>106K Followers</item>
-        <item>986 Followers</item>
-        <item>476 Followers</item>
-        <item>894 Followers</item>
-        <item>924 Followers</item>
-        <item>173 Followers</item>
-        <item>853 Followers</item>
-        <item>567 Followers</item>
+        <item>Pittsburgh, PA, USA</item>
+        <item>New Delhi, India</item>
+        <item>California</item>
+        <item>Sydney, Australia</item>
+        <item>Trondheim, Norway</item>
+        <item>India</item>
+        <item>Kotagede, Yogyakarta, Indonesia</item>
+        <item>Jakarta, Indonesia</item>
+        <item>Bojongsoang - Bandung Jawa Barat</item>
+        <item>Jakarta Indonesia</item>
     </string-array>
 
     <string-array name="data_repository">
-        <item>13 Repositories</item>
-        <item>18 Repositories</item>
-        <item>10 Repositories</item>
-        <item>6 Repositories</item>
-        <item>6 Repositories</item>
-        <item>4 Repositories</item>
-        <item>24 Repositories</item>
-        <item>3 Repositories</item>
-        <item>3 Repositories</item>
-        <item>7 Repositories</item>
+        <item>102</item>
+        <item>37</item>
+        <item>9</item>
+        <item>30</item>
+        <item>56</item>
+        <item>28</item>
+        <item>44</item>
+        <item>110</item>
+        <item>1064</item>
+        <item>65</item>
     </string-array>
 
+    <string-array name="data_company">
+        <item>Google, Inc.</item>
+        <item>MindOrksOpenSource</item>
+        <item>Google</item>
+        <item>Google working on @android</item>
+        <item>Working Group Two</item>
+        <item>AndroidHive | Droid5</item>
+        <item>gojek-engineering</item>
+        <item>KotlinID</item>
+        <item>JVMDeveloperID @KotlinID @IDDevOps</item>
+        <item>Nusantara Beta Studio</item>
+    </string-array>
+
+    <string-array name="data_followers">
+        <item>56995</item>
+        <item>5153</item>
+        <item>7972</item>
+        <item>14725</item>
+        <item>788</item>
+        <item>18628</item>
+        <item>277</item>
+        <item>178</item>
+        <item>428</item>
+        <item>465</item>
+    </string-array>
+
+    <string-array name="data_following">
+        <item>12</item>
+        <item>2</item>
+        <item>0</item>
+        <item>1</item>
+        <item>0</item>
+        <item>3</item>
+        <item>39</item>
+        <item>23</item>
+        <item>61</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="data_avatar">
+        <item>@drawable/user1</item>
+        <item>@drawable/user2</item>
+        <item>@drawable/user3</item>
+        <item>@drawable/user4</item>
+        <item>@drawable/user5</item>
+        <item>@drawable/user6</item>
+        <item>@drawable/user7</item>
+        <item>@drawable/user8</item>
+        <item>@drawable/user9</item>
+        <item>@drawable/user10</item>
+    </string-array>
 
 </resources>
+
+

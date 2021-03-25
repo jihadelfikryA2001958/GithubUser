@@ -15,7 +15,10 @@ class DetailUser : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail_user)
+
         binding = ActivityDetailUserBinding.inflate(layoutInflater)
+        val view = binding.root
+        setContentView(view)
         val actionbar = supportActionBar
         actionbar!!.title = "Detail User"
         actionBar?.setDisplayHomeAsUpEnabled(true)
@@ -23,13 +26,13 @@ class DetailUser : AppCompatActivity() {
         val users = intent.getParcelableExtra<User>(EXTRA_USER) as User
 
         binding.imgPhotoDetail.setImageResource(users.avatar)
-        binding.tvNameDetail.text = users.name
-        binding.tvUsernameDetail.text = "@" + users.username
+        binding.tvNameDetail.text = users.name.toString()
+        binding.tvUsernameDetail.text = "@"+users.username.toString()
         binding.tvCompanyDetail.text = users.company
-        binding.tvLocationDetail.text = users.location
-        binding.tvFollowingDetail.text = users.following
-        binding.tvFollowersDetail.text = users.followers
-        binding.tvRepositoryDetail.text = users.repository
+        binding.tvLocationDetail.text = "Located at "+users.location
+        binding.tvFollowingDetail.text = users.following+"\nFollowing"
+        binding.tvFollowersDetail.text = users.followers+"\nFollowers"
+        binding.tvRepositoryDetail.text = users.repository+"\nRepositories"
 
     }
 

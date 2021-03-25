@@ -15,6 +15,8 @@
         android:layout_width="65dp"
         android:layout_height="65dp"
         app:srcCompat="@drawable/ic_launcher_background"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#7ca8cc"
         tools:ignore="MissingConstraints" />
 
     <LinearLayout
@@ -28,6 +30,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:textStyle="bold"
+        android:textColor="@color/black"
         android:text="@string/username" />
 
     <androidx.appcompat.widget.AppCompatTextView
@@ -36,6 +39,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
+        android:textColor="@color/black"
         android:text="@string/office" />
 
     </LinearLayout>

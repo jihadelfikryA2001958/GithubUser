@@ -10,7 +10,7 @@ import com.example.githubuser.databinding.ItemUserBinding
 class UserAdapter constructor(private val context: Context) :
     BaseAdapter() {
 
-    var users = arrayListOf<User>()
+    var gitusers = arrayListOf<User>()
 
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
@@ -23,6 +23,9 @@ class UserAdapter constructor(private val context: Context) :
         val user = getItem(position) as User
         viewHolder.bind(user)
         return itemView
+
+
+
     }
 
     private inner class ViewHolder constructor(private val view: View){
@@ -39,11 +42,11 @@ class UserAdapter constructor(private val context: Context) :
     }
 
     override fun getCount(): Int {
-        return users.size
+        return gitusers.size
     }
 
     override fun getItem(position: Int): Any {
-        return users[position]
+        return gitusers[position]
     }
 
     override fun getItemId(position: Int): Long {

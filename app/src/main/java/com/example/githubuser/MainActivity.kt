@@ -54,7 +54,7 @@ class MainActivity : AppCompatActivity() {
 
                 val moveToDetail = Intent(this, DetailUser::class.java)
                 moveToDetail.putExtra(DetailUser.EXTRA_USER, moveUser)
-                startActivity(moveToDetail)
+                this.startActivity(moveToDetail)
             }
 
     }
@@ -73,14 +73,14 @@ class MainActivity : AppCompatActivity() {
             )
             gitusers.add(user)
         }
-        adapter.users = gitusers
+        adapter.gitusers = gitusers
     }
 
     private fun prepare() {
         dataName = resources.getStringArray(R.array.data_name)
         dataUsername = resources.getStringArray(R.array.data_username)
         dataCompany = resources.getStringArray(R.array.data_company)
-        dataPhoto = resources.obtainTypedArray(R.array.data_photo)
+        dataPhoto = resources.obtainTypedArray(R.array.data_avatar)
         dataLocation = resources.getStringArray(R.array.data_location)
         dataRepository = resources.getStringArray(R.array.data_repository)
         dataFollowers = resources.getStringArray(R.array.data_followers)
